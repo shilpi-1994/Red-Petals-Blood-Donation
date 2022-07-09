@@ -10,7 +10,7 @@ const LoginPage = () => {
 
   function loginHandler() {
     metaMaskLogin().then(() => {
-      navigate("/home");
+      navigate("/login");
     });
   }
 
